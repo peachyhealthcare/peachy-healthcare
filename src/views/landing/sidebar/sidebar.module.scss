@@ -1,0 +1,44 @@
+.sidebar {
+  padding: 20px 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px 0px rgba(122, 122, 122, 0.2);
+  height: 100%;
+  button {
+    background: none;
+    border: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 13px;
+  }
+  button:hover {
+    opacity: 100;
+    cursor: pointer;
+  }
+}
+
+.link {
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+}
+
+.selected {
+  background: #fff;
+  color: #252631;
+}
+.link .iconS {
+  display: none;
+}
+.selected .icon {
+  display: none;
+}
+.selected .iconS {
+  display: block;
+}
